@@ -5,3 +5,7 @@ html, body {
     font-family: 'Roboto';
     background-color: #DAE0E2;
 }
+
+* {
+    box-sizing: border-box;
+}
