@@ -32,7 +32,7 @@ class Header extends React.Component {
         return (
             <div className="header">
                 <div className="imgContainer">
-                    <img src={require('../assests/logo.jpg')} height="70"/>
+                    <img src={require('../assests/logo.jpg')} height="85"/>
                 </div>
                 {home}
                 {discuss}

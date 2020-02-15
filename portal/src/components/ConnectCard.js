@@ -2,7 +2,6 @@ import React from 'react';
 import '../styles/ConnectCard.css';
 import { Button } from '@material-ui/core'
 import LinkIcon from '@material-ui/icons/Link';
-import IconButton from '@material-ui/core/IconButton';
 
 class ConnectCard extends React.Component {
     constructor(props) {
@@ -26,7 +25,7 @@ class ConnectCard extends React.Component {
                         <div><LinkIcon className="ccIcon" /></div>
                         <div>{this.props.mutualConnects} Mutual Connections</div>
                     </div>
-                    <Button variant="outlined" color="secondary" style={{ width: '96%', margin: '2%' }}>Connect</Button>
+                    <Button variant="outlined" color="secondary" style={{ width: '92%', margin: '4%' }}>Connect</Button>
                 </div>
             </div>
         )

@@ -8,4 +8,27 @@ html, body {
 
 * {
     box-sizing: border-box;
+    font-family: 'Montserrat' !important;
+    color: #02203c;
 }
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #ffffff; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(216, 216, 216);
+    border-radius: 3px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(175, 175, 175); 
+  }
