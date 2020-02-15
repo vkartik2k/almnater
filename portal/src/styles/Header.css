@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    background-color: #02203c;
+    padding: 15px;
+    align-items: center;
+}
+
+.imgContainer {
+    flex-grow: 1;
+    height: 50px;
+}
+
+.heading {
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.btnContainer {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 2px;
+}
+
+.selected {
+    border-bottom: 1px solid white;
+}
