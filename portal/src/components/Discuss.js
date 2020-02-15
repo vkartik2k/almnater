@@ -65,7 +65,7 @@ function Discuss() {
                 </div>
                 <div className="mockRight">
                     <div className="mockHeading">Discuss Forum.</div>
-                    <div className="mockIntro">Interactive discussion forum b/w students and alumni.</div>
+                    <div className="mockIntro">Interactive discussion forum between students and alumni.</div>
                     <Button variant="contained" color="primary">Ask Query</Button>
                 </div>
             </div>
