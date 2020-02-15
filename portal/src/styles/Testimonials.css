@@ -1,9 +1,9 @@
 .testiHead {
-    font-size: 30px;
+    font-size: 34px;
+    font-weight: 550;
     text-align: center;
     padding-top: 50px;
     padding-bottom: 30px;
-    font-weight: 500;
 }
 
 .testiContainer {

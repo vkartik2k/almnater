@@ -29,7 +29,7 @@ class Testimonials extends React.Component {
         return (
             <div>
                 <div className="testiHead">
-                    And Thousands of Satisfied Engineers.
+                    The vast alumni base speaks for itself
                 </div>
                 <div className="testiContainer">
                     <TestiCard
@@ -38,7 +38,7 @@ class Testimonials extends React.Component {
                         desc="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
                     />
                     <TestiCard
-                        name="Carlos"
+                        name="Mandeep Singh"
                         job="Software Developer"
                         desc="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
                     />
@@ -49,7 +49,7 @@ class Testimonials extends React.Component {
                     />
                 </div>
                 <div style={{textAlign: 'center', margin : 10}}>
-                    <Button variant="contained" color="secondary">Connect</Button>
+                    <Button variant="contained" color="primary">Read More</Button>
                 </div>
             </div>
         )

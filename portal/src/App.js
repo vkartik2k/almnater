@@ -1,6 +1,7 @@
 import React from 'react';
 import './styles/App.css';
 import Header from './components/Header'
+import Footer from './components/Footer'
 import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
 
 import Home from './components/Home'
@@ -13,6 +14,9 @@ const theme = createMuiTheme({
     primary: {
       main: '#ffffff',
     },
+    secondary: {
+      main : 'rgb(98, 110, 227)',
+    }
   },
 });
 
@@ -43,6 +47,7 @@ class App extends React.Component {
         <div className="App">
           <Header current={this.state.currentModule} onChange={this._onChangeModule} />
           {mainContent}
+          <Footer/>
         </div>
       </ThemeProvider>
     )
