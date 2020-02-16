@@ -8,6 +8,8 @@ import Home from './components/Home'
 import Connect from './components/Connect'
 import Mock from './components/Mock'
 import Discuss from './components/Discuss'
+import Profile from './components/Profile'
+import SignIn from './components/SignIn'
 
 const theme = createMuiTheme({
   palette: {
@@ -41,6 +43,12 @@ class App extends React.Component {
     if(this.state.currentModule === 'mock') {
       mainContent = <Mock/>
     }
+    if(this.state.currentModule === 'profile') {
+      mainContent = <Profile/>
+    }
+    if(this.state.currentModule === 'signin') {
+      mainContent = <SignIn/>
+    }
 
     return (
       <ThemeProvider theme={theme}>
@@ -52,7 +60,6 @@ class App extends React.Component {
       </ThemeProvider>
     )
   }
-
 }
 
 export default App;

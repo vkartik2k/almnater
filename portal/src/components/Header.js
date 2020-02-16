@@ -15,6 +15,7 @@ class Header extends React.Component {
         let discuss = <div className="heading" onClick= {() =>this.props.onChange('discuss')}>Discuss</div>
         let connect = <div className="heading" onClick= {() =>this.props.onChange('connect')}>Connect Alumni</div>
         let mock = <div className="heading" onClick= {() =>this.props.onChange('mock')}>Mock Interview</div>
+        let profile = <div className="heading" onClick= {() =>this.props.onChange('profile')}>Profile</div>
 
         if(this.props.current === 'home') {
             home = <div className="heading selected">Home</div>
@@ -24,6 +25,9 @@ class Header extends React.Component {
         }
         if(this.props.current === 'connect') {
             connect = <div className="heading selected">Connect Alumni</div>
+        }
+        if(this.props.current === 'profile') {
+            profile = <div className="heading selected">Profile</div>
         }
         if(this.props.current === 'mock') {
             mock = <div className="heading selected">Mock Interview</div>
@@ -36,10 +40,11 @@ class Header extends React.Component {
                 </div>
                 {home}
                 {discuss}
+                {profile}
                 {connect}
                 {mock}
                 <div className="btnContainer">
-                    <Button variant="outlined" color="primary">Sign In</Button>
+                    <Button variant="outlined" color="primary" onClick= {() =>this.props.onChange('signin')}>Sign In</Button>
                 </div>
 
             </div>
